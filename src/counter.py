@@ -9,6 +9,9 @@ class Counter:
     def increment(self, amount):
         self.value = self.value + amount
 
+    def set(self, arvo):
+        self.value = arvo
+
     def decrease(self):
         self.value = self.value - 1
 
